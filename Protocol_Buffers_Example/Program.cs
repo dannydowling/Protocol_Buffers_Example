@@ -4,7 +4,7 @@ using Protocol_Buffers_Example;
 //to make things work, first make a .proto file with the entries you need.
 //then find the protoc.exe compiler in the tools folder of the imported tools package in this project.
 //copy the proto file to the same folder as the compiler
-//then run protoc --chsarp_out=./ *.proto 
+//then run protoc --csharp_out=./ *.proto 
 //you should now have a new .cs file generated in the folder to copy to the project, which contains concrete classes.
 
 if (args.Length > 1)
